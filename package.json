@@ -1,0 +1,21 @@
+{
+  "name": "productive-clock",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A 32 hours based clock to make your day more productive.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "http": "^0.0.1-security"
+  }
+}
