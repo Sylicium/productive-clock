@@ -7,9 +7,9 @@
 // One month has 4 weeks
 
 class ProductiveClock extends Date {
-
-    static BASE_DATE = new Date('2025-01-01T00:00:00Z');
     
+    static BASE_DATE = new Date('2025-01-01T00:00:00+01:00');
+
     constructor(time?: number | string | Date) {
         super();
         if (time != null) {
